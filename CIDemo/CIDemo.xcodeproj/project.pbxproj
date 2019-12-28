@@ -16,6 +16,7 @@
 		12D87F9123B7C92F009061B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D87F8F23B7C92F009061B5 /* LaunchScreen.storyboard */; };
 		12D87F9C23B7C92F009061B5 /* CIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D87F9B23B7C92F009061B5 /* CIDemoTests.swift */; };
 		12D87FA723B7C92F009061B5 /* CIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D87FA623B7C92F009061B5 /* CIDemoUITests.swift */; };
+		12D87FB723B7CF5F009061B5 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D87FB623B7CF5F009061B5 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		12D87FA223B7C92F009061B5 /* CIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12D87FA623B7C92F009061B5 /* CIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIDemoUITests.swift; sourceTree = "<group>"; };
 		12D87FA823B7C92F009061B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D87FB623B7CF5F009061B5 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				12D87F8F23B7C92F009061B5 /* LaunchScreen.storyboard */,
 				12D87F9223B7C92F009061B5 /* Info.plist */,
 				12D87F8A23B7C92C009061B5 /* CIDemo.xcdatamodeld */,
+				12D87FB423B7CF39009061B5 /* Resource */,
 			);
 			path = CIDemo;
 			sourceTree = "<group>";
@@ -129,6 +132,22 @@
 				12D87FA823B7C92F009061B5 /* Info.plist */,
 			);
 			path = CIDemoUITests;
+			sourceTree = "<group>";
+		};
+		12D87FB423B7CF39009061B5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				12D87FB523B7CF53009061B5 /* Extensions */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		12D87FB523B7CF53009061B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				12D87FB623B7CF5F009061B5 /* String.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +283,7 @@
 			files = (
 				12D87F8C23B7C92C009061B5 /* CIDemo.xcdatamodeld in Sources */,
 				12D87F8623B7C92C009061B5 /* ViewController.swift in Sources */,
+				12D87FB723B7CF5F009061B5 /* String.swift in Sources */,
 				12D87F8223B7C92C009061B5 /* AppDelegate.swift in Sources */,
 				12D87F8423B7C92C009061B5 /* SceneDelegate.swift in Sources */,
 			);
