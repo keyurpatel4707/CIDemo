@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="CIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="CIDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,6 +35,7 @@
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="abc@abc.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l67-QH-DkQ">
                                 <rect key="frame" x="20" y="213" width="374" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="emailtf"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GAx-h7-fXn"/>
                                 </constraints>
@@ -55,6 +56,7 @@
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="*****" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AMU-Yv-HCQ">
                                 <rect key="frame" x="20" y="288" width="374" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="passwordtf"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="uLQ-xs-nAk"/>
                                 </constraints>
