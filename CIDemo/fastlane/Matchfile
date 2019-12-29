@@ -1,4 +1,4 @@
-git_url "https://github.com/keyurpatel4707/TravisCITestingFinal"
+git_url "https://github.com/keyurpatel4707/CIDemo"
 
 type "development" # The default type, can be: appstore, adhoc, enterprise or development
 
