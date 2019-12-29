@@ -21,7 +21,7 @@ class CIDemoTests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         email1 = "abc"
         password1 = "123"
-        email2 = "abc@abc.com"
+        email2 = "cab@abc.com"
         password2 = "ABCabc@123"
     }
 
