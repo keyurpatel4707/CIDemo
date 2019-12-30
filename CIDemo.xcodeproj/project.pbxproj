@@ -490,7 +490,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.3embed.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = CIdemoAPPstore;
+				PROVISIONING_PROFILE_SPECIFIER = demo_dist_provisioning;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
